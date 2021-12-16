@@ -21,6 +21,7 @@ export interface IMultiselectProps {
     singleSelect?: boolean,
     caseSensitiveSearch?: boolean,
     id?: string,
+    name?: string,
     closeOnSelect?: boolean,
     avoidHighlightFirstOption?: boolean,
     hidePlaceholder?: boolean,
